@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .divForm {
+            width: 50%;
+            margin-left: 16px;
+            border: 1px solid gray;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        input {
+            margin-bottom: 16px;
+        }
+
+        select {
+            margin-bottom: 16px;
+        }
+
+        textarea {
+            margin-bottom: 16px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <hr>
+    <div>
+        <a href="index.html">Home</a>&nbsp;|
+        <a href="education.html">Education</a>&nbsp;|
+        <a href="work.html">Work Experience</a>&nbsp;|
+        <a href="#">Contact Me</a>&nbsp;
+    </div>
+    <hr>
+    <h1>Contact Me</h1>
+    <div class="divForm">
+        <form action="#" method="post" enctype="text/plain">
+            <p>Enter your Info..</p>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="gender">Gender:</label><br>
+            <select>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="10" cols="30"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+
+</body>
+
+</html>
